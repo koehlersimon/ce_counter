@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-05-01T12:05:37Z" product-name="ce_counter">
+		<header/>
+		<body>
+
+			<trans-unit id="counter_settings">
+				<target>Countdown-Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="counter_time">
+				<target>Zeit</target>
+			</trans-unit>
+			<trans-unit id="counter_time.description">
+				<target>Wähle die Ziel-Zeit, zu der der Zähler zählen soll. Diese Zahl muss in der Zukunft liegen, aber nicht weiter als 10 Jahre entfernt.</target>
+			</trans-unit>
+			<trans-unit id="counter_direction">
+				<target>Zählrichtung aufwärts oder abwärts?</target>
+			</trans-unit>
+			<trans-unit id="counter_direction.description">
+				<target>Definiere, ob der Zähler herauf oder herab zählen soll. (Dieses Feature kommt mit der nächsten Version. Derzeit ist nur der klassische Countdown möglich.)</target>
+			</trans-unit>
+			<trans-unit id="counter_direction.down">
+				<target>abwärts</target>
+			</trans-unit>
+			<trans-unit id="counter_direction.up">
+				<target>aufwärts (noch nicht aktiv!)</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

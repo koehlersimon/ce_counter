@@ -1,0 +1,15 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        ce_counter {
+            iconIdentifier = ce-counter-record
+            title = LLL:EXT:ce_counter/Resources/Private/Language/locallang.xlf:ce_title
+            description = LLL:EXT:ce_counter/Resources/Private/Language/locallang.xlf:ce_description
+            tt_content_defValues {
+                CType = ce_counter
+            }
+        }
+    }
+    show := addToList(ce_counter)
+}
+
+mod.web_layout.tt_content.preview.ce_counter = EXT:ce_counter/Resources/Private/Templates/Preview/Counter.html

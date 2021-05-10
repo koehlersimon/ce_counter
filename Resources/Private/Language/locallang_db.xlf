@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-05-01T12:05:37Z" product-name="ce_counter">
+		<header/>
+		<body>
+
+			<trans-unit id="counter_settings">
+				<source>Countdown Settings</source>
+			</trans-unit>
+			<trans-unit id="counter_time">
+				<source>Countdown Time</source>
+			</trans-unit>
+			<trans-unit id="counter_time.description">
+				<source>Select the target time at which the counter should count. This number must be in the future, but not further than 10 years away.</source>
+			</trans-unit>
+			<trans-unit id="counter_direction">
+				<source>Count down or up?</source>
+			</trans-unit>
+			<trans-unit id="counter_direction.description">
+				<source>Define whether the counter should count up or down. (This feature will come with the next version. Currently only the classic countdown is possible).</source>
+			</trans-unit>
+			<trans-unit id="counter_direction.down">
+				<source>count down</source>
+			</trans-unit>
+			<trans-unit id="counter_direction.up">
+				<source>count up (coming soon!)</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

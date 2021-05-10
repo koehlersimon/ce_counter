@@ -1,0 +1,10 @@
+lib.contentElement {
+    templateRootPaths.200 = EXT:ce_counter/Resources/Private/Templates/
+}
+
+tt_content {
+    ce_counter =< lib.contentElement
+    ce_counter {
+        templateName = Counter
+    }
+}

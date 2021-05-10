@@ -1,0 +1,43 @@
+{
+    "name": "simonkoehler/ce-counter",
+    "type": "typo3-cms-extension",
+    "version": "1.0.0",
+    "description": "Enables a new content element of type Counter",
+    "homepage": "https://simon-koehler.com/",
+    "authors": [
+        {
+            "name": "Simon Köhler",
+            "email": "info@simon-koehler.com",
+            "homepage": "https://simon-koehler.com/",
+            "role": "Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/typo3freelancer/25"
+        }
+    ],
+    "support": {
+        "email": "info@simon-koehler.com",
+        "docs": "https://simon-koehler.com/"
+    },
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "typo3/cms-core": "^10.4.4 || ^11.2"
+    },
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "counter",
+        "countdown",
+        "frontend",
+        "plugin",
+        "css",
+        "addon"
+    ],
+    "replace": {
+        "simonkoehler/ce-counter": "self.version",
+        "typo3-ter/ce-counter": "self.version"
+    }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2021-05-01T12:05:37Z" product-name="ce_counter">
+		<header/>
+		<body>
+
+			<trans-unit id="ce_title">
+				<source>Countdown</source>
+			</trans-unit>
+			<trans-unit id="ce_description">
+				<source>Adds a counter to your frontend</source>
+			</trans-unit>
+
+			<trans-unit id="counts">
+				<source>Counts</source>
+			</trans-unit>
+			<trans-unit id="down">
+				<source>down</source>
+			</trans-unit>
+			<trans-unit id="up">
+				<source>up</source>
+			</trans-unit>
+			<trans-unit id="to">
+				<source>to</source>
+			</trans-unit>
+
+			<trans-unit id="years">
+				<source>years</source>
+			</trans-unit>
+            <trans-unit id="months">
+				<source>months</source>
+			</trans-unit>
+            <trans-unit id="days">
+				<source>days</source>
+			</trans-unit>
+            <trans-unit id="hours">
+				<source>hours</source>
+			</trans-unit>
+            <trans-unit id="minutes">
+				<source>minutes</source>
+			</trans-unit>
+            <trans-unit id="seconds">
+				<source>seconds</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
