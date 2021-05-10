@@ -1,6 +1,6 @@
-# ![](https://github.com/koehlersimon/ce_counter/blob/master/ext_icon.svg?raw=true) ce_counter - TYPO3 Extension
+# <img src="https://github.com/koehlersimon/ce_counter/blob/master/ext_icon.svg?raw=true" width="80" height="80"><br> ce_counter - TYPO3 Extension
 
-This extension provides a new content element of type "Counter" (ce_counter) that shows a visual Counter in the frontend.
+This extension provides a **custom content element** of type "Counter" (ce_counter) that shows a visual Counter in the frontend.
 
 <table border="0">
     <tr>
