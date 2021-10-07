@@ -17,19 +17,19 @@ call_user_func(function () {
 	);
 
 	// New palette header
-	$GLOBALS['TCA']['tt_content']['palettes']['header'] = array(
+	$GLOBALS['TCA']['tt_content']['palettes']['headercombined'] = array(
 		'showitem' => 'header, header_layout, header_position','canNotCollapse' => 1
 	);
 
 	$GLOBALS['TCA']['tt_content']['palettes']['countdown'] = array(
-		'showitem' => 'counter_time, counter_direction','canNotCollapse' => 1
+		'showitem' => 'counter_time, counter_stop','canNotCollapse' => 1
 	);
 
 	$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['ce_counter'] = 'ce-counter-record';
 	$GLOBALS['TCA']['tt_content']['types']['ce_counter'] = [
 		'showitem' => '
 			--palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
-			--palette--;;header,
+			--palette--;;headercombined,
 			subheader,
 			--palette--;LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_settings;countdown,
 			--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
@@ -54,24 +54,15 @@ call_user_func(function () {
 				'type' => 'input',
 				'renderType' => 'inputDateTime',
 				'eval' => 'datetime',
-				'range' => [
-					'upper' => strtotime('+10 years', time()),
-					'lower' => time(),
-				],
 			],
 		],
-		'counter_direction' => [
+		'counter_stop' => [
 			'exclude' => 0,
-			'label' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_direction',
-			'description' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_direction.description',
+			'label' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_stop',
+			'description' => 'LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_stop.description',
 			'config' => [
-			'type' => 'select',
-			'renderType' => 'selectSingle',
-			'default' => 0,
-			'items' => [
-				['LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_direction.down', 0],
-				['LLL:EXT:ce_counter/Resources/Private/Language/locallang_db.xlf:counter_direction.up', 1],
-			],
+				'type' => 'check',
+				'default' => 1
 			],
 		],
 
