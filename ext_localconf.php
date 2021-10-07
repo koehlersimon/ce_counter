@@ -5,7 +5,7 @@ call_user_func(
     function() {
 
         $icons = [
-            'ce-counter-icon' => 'EXT:ce_counter/ext_icon.svg',
+            'ce-counter-icon' => 'EXT:ce_counter/Resources/Public/Icons/ext_icon.svg',
             'ce-counter-record' => 'EXT:ce_counter/Resources/Public/Icons/ce-countdown.svg',
         ];
 
