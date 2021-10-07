@@ -2,7 +2,7 @@
 <f:section name="Main">
 
 <div class="tx-cecountdown"
-    data-countdown="{data.counter_time}"
+    data-time="{data.counter_time}"
     data-format="{days,hours,mins,secs}"
 >
     <span class="days"></span>
@@ -12,6 +12,7 @@
 </div>
 
 <f:asset.script identifier="countdown" src="EXT:ce_counter/Resources/Public/Js/Countdown.js" />
+
 <f:asset.css identifier="countdown">
 .tx-cecountdown{
     display: flex;
