@@ -13,17 +13,11 @@
 			<trans-unit id="counter_time.description">
 				<source>Select the target time at which the counter should count. This number must be in the future, but not further than 10 years away.</source>
 			</trans-unit>
-			<trans-unit id="counter_direction">
-				<source>Count down or up?</source>
+			<trans-unit id="counter_stop">
+				<source>Stop counter at the end?</source>
 			</trans-unit>
-			<trans-unit id="counter_direction.description">
-				<source>Define whether the counter should count up or down. (This feature will come with the next version. Currently only the classic countdown is possible).</source>
-			</trans-unit>
-			<trans-unit id="counter_direction.down">
-				<source>count down</source>
-			</trans-unit>
-			<trans-unit id="counter_direction.up">
-				<source>count up (coming soon!)</source>
+			<trans-unit id="counter_stop.description">
+				<source>If you don't stop the counter at the end, the elapsed time since the target date is automatically displayed. When you stop it, you can set other actions.</source>
 			</trans-unit>
 
 		</body>
