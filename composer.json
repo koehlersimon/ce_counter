@@ -1,7 +1,7 @@
 {
     "name": "simonkoehler/ce-counter",
     "type": "typo3-cms-extension",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Enables a new content element of type Counter",
     "homepage": "https://simon-koehler.com/",
     "authors": [
@@ -15,7 +15,7 @@
     "funding": [
         {
             "type": "paypal",
-            "url": "https://paypal.me/typo3freelancer/25"
+            "url": "https://paypal.me/typo3freelancer/5"
         }
     ],
     "support": {
@@ -24,7 +24,7 @@
     },
     "license": "GPL-3.0-or-later",
     "require": {
-        "typo3/cms-core": "^10.4.0 || ^11.2"
+        "typo3/cms-core": "^10.4.0 || ^11.5"
     },
     "keywords": [
         "TYPO3",
