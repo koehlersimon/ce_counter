@@ -18,15 +18,5 @@ call_user_func(
             );
         }
 
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
-           'ce_counter',
-           'setup',
-           "@import 'EXT:ce_counter/Configuration/TypoScript/setup.typoscript'"
-        );
-
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('
-            @import "EXT:ce_counter/Configuration/TypoScript/TsConfig/page.typoscript"
-        ');
-
     }
 );
