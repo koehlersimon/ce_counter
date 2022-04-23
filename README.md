@@ -5,7 +5,7 @@ This extension provides a **custom content element** of type "Counter" (ce_count
 <table border="0">
     <tr>
         <th>Latest version</b></th>
-        <td>1.0.0</td>
+        <td>2.0.0</td>
     </tr>
     <tr>
         <th>Status</b></th>
@@ -13,7 +13,7 @@ This extension provides a **custom content element** of type "Counter" (ce_count
     </tr>
     <tr>
         <th>TYPO3 version</b></th>
-        <td>10.4.0 - 11.2.99</td>
+        <td>10.4.0 - 11.5.99</td>
     </tr>
     <tr>
         <th>TER</b></th>
