@@ -5,7 +5,7 @@ This extension provides a **custom content element** of type "Counter" (ce_count
 <table border="0">
     <tr>
         <th>Latest version</b></th>
-        <td>2.0.0</td>
+        <td><a href="https://github.com/koehlersimon/ce_counter/releases/tag/v2.0.0">2.0.0</a></td>
     </tr>
     <tr>
         <th>Status</b></th>
@@ -22,6 +22,10 @@ This extension provides a **custom content element** of type "Counter" (ce_count
 </table>
 
 <hr>
+
+## IMPORTANT NOTE FOR UPDATES FROM 1.0 to 2.0
+You can simply install and overwrite the extension, but TypoScript and Page TSconfig has to be included in your template record and page properties. Otherwise the counter will not show up, or the content element wizard in your backend will not show the counter element.
+
 
 ## Features
 
